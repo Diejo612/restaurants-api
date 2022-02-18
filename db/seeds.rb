@@ -4,6 +4,7 @@ user.password_confirmation = '12345678'
 
 restaurant = user.restaurants.find_or_initialize_by(name: 'Pardos', address: 'Piura York')
 restaurant2 = user.restaurants.find_or_initialize_by(name: 'Chicken KFC', address: 'Los Olivos City')
+restaurant3 = user.restaurants.find_or_initialize_by(name: 'Popeye', address: 'Codornices')
 
 
 user.save
